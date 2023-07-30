@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 export const CustomButton = styled.button`
   background-color: #007bff;
@@ -14,10 +14,6 @@ export const CustomButton = styled.button`
   }
 `;
 
-export const LandingPageContainer = styled.div`
-  background-color: #222831;
-`;
-
 export const LandingSection = styled.section`
   position: relative;
   height: 80vh;
@@ -27,6 +23,7 @@ export const LandingSection = styled.section`
   background-position: center;
   overflow: hidden;
   flex-direction: column;
+  background-color: #222831;
 `;
 
 export const GradientOverlay = styled.div`
@@ -65,46 +62,6 @@ export const CTAButton = styled.button`
   }
 `;
 
-// const glowAnimation = keyframes`
-//   0% {
-//     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-//   }
-//   100% {
-//     box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
-//   }
-// `;
-
-// export const CTAButton = styled.button`
-//   position: relative;
-//   z-index: 2;
-//   padding: 15px 30px;
-//   margin-left: 30px;
-//   font-size: 20px;
-//   background-color: ${(props) =>
-//     props.alternativeColor ? "#222831" : "#ffffff"};
-//   color: ${(props) => (!props.alternativeColor ? "#222831" : "#ffffff")};
-//   border: 0px;
-//   border-radius: 5px;
-//   cursor: pointer;
-//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-//   transition: transform 0.2s ease-in-out;
-
-//   &:hover {
-//     transform: scale(1.1);
-//     &::after {
-//       content: "";
-//       position: absolute;
-//       top: -5px;
-//       left: -5px;
-//       right: -5px;
-//       bottom: -5px;
-//       border-radius: 5px;
-//       animation: ${glowAnimation} 1s ease-in-out infinite;
-//       z-index: -1; /* Move the pseudo-element behind the button */
-//     }
-//   }
-// `;
-
 export const TagLine = styled.div`
   position: relative;
   z-index: 2;
@@ -123,13 +80,6 @@ export const TaglineText = styled.h2`
 `;
 
 export const TaglineTextSecoundary = styled.h2`
-  font-size: 18px;
-  color: #ffffff90;
-  text-align: center;
-  margin-bottom: 20px;
-`;
-
-export const TaglineCtaText = styled.h2`
   font-size: 18px;
   color: #ffffff90;
   text-align: center;
