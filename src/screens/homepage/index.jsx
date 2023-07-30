@@ -3,6 +3,7 @@ import { Navbar } from "../../components/Navbar";
 import { LandingPage } from "../landingpage";
 import { WhatWeDoPage } from "../what-we-do";
 import { WhyUsPage } from "../why-us";
+import PremiumFooter from "../footer";
 
 export const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ export const HomePage = () => {
       <LandingPage />
       <WhatWeDoPage />
       <WhyUsPage />
+      <PremiumFooter />
     </div>
   );
 };
