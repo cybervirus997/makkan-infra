@@ -4,6 +4,7 @@ import { LandingPage } from "../landingpage";
 import { WhatWeDoPage } from "../what-we-do";
 import { WhyUsPage } from "../why-us";
 import PremiumFooter from "../footer";
+import { OurProjectsPage } from "../our-projects";
 
 export const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ export const HomePage = () => {
       <LandingPage />
       <WhatWeDoPage />
       <WhyUsPage />
+      <OurProjectsPage />
       <PremiumFooter />
     </div>
   );

@@ -4,7 +4,6 @@ export const WhatWeDoConatiner = styled.div`
   position: relative;
   background-color: #222831;
   height: 49vh;
-  // background-image: url("https://github.com/cybervirus997/makkan-infra/assets/72969348/8f1e2545-07b5-4a2d-bbdf-6367bb51a68d");
   background-size: cover;
   background-position: center;
   overflow: hidden;
