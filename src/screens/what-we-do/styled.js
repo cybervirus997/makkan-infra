@@ -16,7 +16,7 @@ export const GradientOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 40%, transparent 70%);
+  background: linear-gradient(to top, rgba(0, 2, 2, 1) 40%, transparent 70%);
   z-index: 1;
   pointer-events: none;
 `;
